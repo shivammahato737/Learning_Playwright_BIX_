@@ -20,7 +20,7 @@ if the order value greater than 499 provide
 free delivery output can be free delivery  else charges applicable
 else
  */
-let orderAmount = 650;
+let orderAmount = "500";
 
 if (orderAmount > 499) {
     console.log("Free delivery");

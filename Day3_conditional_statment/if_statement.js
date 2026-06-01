@@ -3,7 +3,7 @@
        //code
 //}
 
-let age = 65
+let age = 75
 if (age>=60){
     console.log("Elligible for vaccination");
     //console.log(age);
