@@ -1,5 +1,5 @@
 /* 
-map() - transform every elemen and returns a new array
+map() - transform every element and returns a new array
 */
 const numbers = [1, 2, 3]
 const doubled = numbers.map(number => number * 2)
