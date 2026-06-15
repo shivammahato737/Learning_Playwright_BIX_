@@ -5,23 +5,25 @@ const numbers = [1, 2, 3]
 const doubled = numbers.map(number => number * 2)
 const tripled = numbers.map(number => number * 3)
 const squared = numbers.map(number => number * number)
-/*function (number){
-    return number * number
-}*/
 console.log(doubled);
 console.log(tripled);
 console.log(squared);
 
-const names = ['shivam', 'kumar', 'virat']
-const updatedNames = names .map(name =>'Mr' , name)
+ 
+
+
+const names = ["shivam", "kumar", "virat"];
+const updatedNames = names.map(name => `Mr. ${name}`);
 console.log(updatedNames);
 
+const names = ["shivam", "amit", "bikash", 'akash', 'pooja']
+const updatesNames = names.map(name => 'Mr.' + name)
+console.log(updatesNames);
+
+
+
 //filter() - keeps matching element
-const numbers = [10, 20, 30]
-const result = numbers.filter(num => num > 20)
-const result1 = numbers.filter(num => num >= 20)
-console.log(result);
-console.log(result1);
+ 
 
 const numbers = [1, 2, 3]
 const even = numbers.filter(num=> (num%2) == 0)
@@ -33,7 +35,7 @@ const result = numbers .find(num => num > 20)
 console.log(result);
 
 const names = ['shivam', 'kumar', 'virat' , 'shilpi']
-const name = names.filter(n=> n.startsWith('s'))
+const name = names.find(n=> n.startsWith('s'))
 console.log(name);
 
 // reduce() - convert many values into one
